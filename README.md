@@ -1,0 +1,1 @@
+# rails-ajax-mini-project
