@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <title>Search and Add Coffees</title>
+
+    <h2>Let's Get Caffeinated.....</h2>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  </head>
+  <body>
+    <div class='container'>
+      <div class='row'>
+        <div class='col s4'>
+          <h3>Add Your Cup of Joe</h3><br><br>
+          <form id="add_coffee">
+            <label>Name Your Blend</label>
+            <input id='blend_name' type='text' />
+
+            <label>Beans Origin</label>
+            <input id='origin' type='text' />
+
+            <label>Describe Your Coffee Notes</label>
+            <input id='notes' type='text' />
+
+            <input type='submit' />
+          </form>
+
+        </div>
+
+        <div class='col s8'>
+          <h4>So Much Coffee...</h4><br>
+          <ul id="coffee_index">
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src='coffee.js'></script>
+  </body>
+</html>
